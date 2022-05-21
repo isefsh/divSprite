@@ -1,0 +1,15 @@
+#animacao{
+    background-image: url(../imgs/sapoGif.png);
+    width: 500px;
+    height: 500px;
+    animation: sprite 2s steps(16) infinite;
+}
+
+@keyframes sprite{
+    from{
+        background-position: 0px;
+    }
+    to{
+        background-position: -8000px;
+    }
+}
